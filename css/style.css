@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 800px;
+    margin: 0 auto;
+}
+
+/* Barra di navigazione */
+header{
+    background-color: #add8e6;
+    padding: 10px
+}
+
+.head-content{
+    background-color: #daa520;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+}
+
+.login{
+    text-align: right;
+}
+
+.logo, .login{
+    flex-grow: 1;
+    background-color: grey;
+    padding: 10px;
+}
+
+.link{
+    flex-grow: 2;
+    text-align: center;
+}
+
+li{
+    display: inline-block;
+    padding: 10px;
+    background-color: red;
+}
+
+a{
+    text-decoration: none;
+}
