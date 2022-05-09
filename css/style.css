@@ -23,13 +23,13 @@ header{
     height: 50px;
 }
 
-.login{
-    text-align: right;
-}
-
 .logo, .login{
     flex-grow: 1;
     padding: 10px;
+}
+
+.login{
+    text-align: right;
 }
 
 .link{
@@ -89,13 +89,7 @@ a{
 }
 
 .item4{
-    height: 600px;
-    background-color: #228b22;
-}
-
-.left{
-    flex-grow: 2;
-    background-color: #1e90ff;
+    height: 350px;
 }
 
 .right{
@@ -103,17 +97,25 @@ a{
     background-color: #ffc0cb;
 }
 
-.right1{
-    height: 350px;
-    flex-grow: 3;
-    background-color: #20b2aa;
-    display: inline-block;
+.left{
+    flex-grow: 2;
+    background-color: #1e90ff;
 }
 
-.left1{
-    height: 350px;
+.right-1{
+    flex-grow: 2;
+    background-color: #20b2aa;
+    display: flex;
+}
+
+.left-1{
     flex-grow: 1;
-    background-color: #1e90ff;
+    background-color: #f08080;
+}
+
+.block{
+    flex-grow: 1;
+    border: 1px dotted white;
 }
 
 /* Footer */
@@ -134,8 +136,5 @@ footer{
     padding: 5px;
     margin: 10px 0;
     background-color: #ffb6c1;
-}
-
-.bottone{
     border: none;
 }
