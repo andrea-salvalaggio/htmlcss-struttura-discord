@@ -12,7 +12,7 @@
 /* Barra di navigazione */
 header{
     background-color: #add8e6;
-    padding: 10px
+    padding: 20px
 }
 
 .head-content{
@@ -20,7 +20,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 40px;
+    height: 50px;
 }
 
 .login{
@@ -29,7 +29,6 @@ header{
 
 .logo, .login{
     flex-grow: 1;
-    background-color: grey;
     padding: 10px;
 }
 
@@ -41,9 +40,102 @@ header{
 li{
     display: inline-block;
     padding: 10px;
-    background-color: red;
 }
 
 a{
     text-decoration: none;
+}
+
+/* Parte caentrale */
+.main-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bg{
+    padding: 40px 0;
+}
+
+.section-1{
+    background-color: #00008b;
+}
+
+.section-2{
+    background-color: #ffff;
+}
+
+.section-3, .section-4{
+    background-color: #d3d3d3;
+}
+
+.section-5{
+    background-color: #23272a;
+}
+
+.item1{
+    width: 600px;
+    height: 300px;
+    background-color: #ee82ee;
+}
+
+.item2{
+    height: 300px;
+}
+
+.item3{
+    height: 600px;
+    background-color: #228b22;
+}
+
+.item4{
+    height: 600px;
+    background-color: #228b22;
+}
+
+.left{
+    flex-grow: 2;
+    background-color: #1e90ff;
+}
+
+.right{
+    flex-grow: 1;
+    background-color: #ffc0cb;
+}
+
+.right1{
+    height: 350px;
+    flex-grow: 3;
+    background-color: #20b2aa;
+    display: inline-block;
+}
+
+.left1{
+    height: 350px;
+    flex-grow: 1;
+    background-color: #1e90ff;
+}
+
+/* Footer */
+footer{
+    background-color: #23272a;
+    padding-top: 30px;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background-color: #7fffd4;
+}
+
+.logo-footer, .bottone{
+    padding: 5px;
+    margin: 10px 0;
+    background-color: #ffb6c1;
+}
+
+.bottone{
+    border: none;
 }
